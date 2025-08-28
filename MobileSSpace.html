@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India Tech Store</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: linear-gradient(90deg, #ff512f, #dd2476);
+    }
+
+    /* Sections */
+    .section {
+      padding: 60px 20px;
+    }
+
+    /* Cards */
+    .card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card img {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Buttons */
+    .btn-custom {
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      border: none;
+      color: white;
+      border-radius: 30px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .btn-custom:hover {
+      transform: scale(1.1);
+      background: linear-gradient(90deg, #ee0979, #ff6a00);
+    }
+
+    footer {
+      background: linear-gradient(135deg, #43cea2, #185a9d);
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a style="color: #1438da;" class="navbar-brand fw-bold" href="#">India Tech Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#mobiles">Mobiles</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cameras">Cameras</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="section text-center text-white" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+  <h1 style="color: #ef151d;" class="fw-bold">Welcome To India Tech Store</h1>
+  <p class="lead">Your One-Stop Shop For Trending Mobiles & Cameras In India.</p>
+</section>
+
+<!-- Mobiles Section -->
+<section id="mobiles" class="section text-white" style="background: linear-gradient(135deg, #ff9966, #ff5e62);">
+  <div class="container">
+    <h2 style="color: #5557bdda;" class="text-center mb-5">Trending Mobiles</h2>
+    <div class="row g-4">
+      <!-- Mobile 1 -->
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <img src="C:\Users\Teamlease\Downloads\gallery-pc-img4.jpg" alt="iQOO 12 5G">
+          <div class="p-3">
+            <h5>iQOO 12 5G</h5>
+            <p>Snapdragon 8 Gen 3, 144Hz AMOLED Display</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#iqoo12">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile 2 -->
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <img src="C:\Users\Teamlease\Downloads\galaxy-s24-ultra-highlights-kv.jpg" alt="Samsung Galaxy S24 Ultra">
+          <div class="p-3">
+            <h5>Samsung Galaxy S24 Ultra</h5>
+            <p>200MP Camera, S Pen, Dynamic AMOLED 2X</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#s24ultra">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile 3 -->
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <img src="https://image01-in.oneplus.net/media/202407/04/41900be750fcc2707894c7eb516d1ce8.png?x-amz-process=image/format,webp/quality,Q_80.jpg" alt="OnePlus 12">
+          <div class="p-3">
+            <h5>OnePlus 12</h5>
+            <p>Snapdragon 8 Gen 3, 5400mAh Battery, 100W Charging</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#oneplus12">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cameras Section -->
+<section id="cameras" class="section text-white" style="background: linear-gradient(135deg, #36d1dc, #5b86e5);">
+  <div class="container">
+    <h2 class="text-center mb-5">Trending Cameras</h2>
+    <div class="row g-4">
+      <!-- Camera 1 -->
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/71eOQ5ssTAL._SL1500_.jpg" alt="Canon EOS R6 Mark II">
+          <div class="p-3">
+            <h5>Canon EOS R6 Mark II</h5>
+            <p>24.2MP, 4K Video, Mirrorless Camera</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#canonr6">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Camera 2 -->
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/248802_0_perymq.png?tr=w-640.jpg" alt="Sony Alpha 7 IV">
+          <div class="p-3">
+            <h5>Sony Alpha 7 IV</h5>
+            <p>33MP, 4K60p, Full-Frame Mirrorless</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#sonya7iv">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Camera 3 -->
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <img src="https://gppro.in/wp-content/uploads/2024/11/Nikon-Z6II-with-24-70mm-F4S-1.jpg" alt="Nikon Z6 II">
+          <div class="p-3">
+            <h5>Nikon Z6 II</h5>
+            <p>24.5MP, Dual EXPEED 6, 4K Video</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#nikonz6">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="section text-center text-white" style="background: linear-gradient(135deg, #ff9a9e, #fecfef);">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>We Bring You The Latest and Most Trending Mobiles and Cameras In India With Genuine Prices and Top Offers.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section text-center text-white" style="background: linear-gradient(135deg, #00c6ff, #0072ff);">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Email: support@indiatechstore.com | Phone: +91 98765 43210</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+  <p class="mb-0">© 2025 India Tech Store | All Rights Reserved</p>
+</footer>
+
+<!-- Modals -->
+<div class="modal fade" id="iqoo12" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">iQOO 12 5G</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        6.78" AMOLED 144Hz Display, 5000mAh Battery, 120W Fast Charging, Triple Camera Setup.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="s24ultra" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Samsung Galaxy S24 Ultra</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        6.8" Dynamic AMOLED 2X, Snapdragon 8 Gen 3, 5000mAh Battery, S Pen, 200MP Camera.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="oneplus12" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">OnePlus 12</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Snapdragon 8 Gen 3, 5400mAh Battery, 100W Fast Charging, 50MP Triple Camera.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="canonr6" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Canon EOS R6 Mark II</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        24.2MP Full-Frame CMOS Sensor, DIGIC X Processor, 4K60p Video.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sonya7iv" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Sony Alpha 7 IV</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        33MP Full-Frame CMOS Sensor, 4K60p, BIONZ XR Processor.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="nikonz6" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Nikon Z6 II</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        24.5MP BSI CMOS Sensor, Dual EXPEED 6 Processors, 4K UHD Video.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
